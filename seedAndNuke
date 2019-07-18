@@ -1,0 +1,5 @@
+#!/bin/bash
+saveIt="$1"
+mv "$saveIt" ..
+rm -rf * 
+mv ../"$saveIt" .
